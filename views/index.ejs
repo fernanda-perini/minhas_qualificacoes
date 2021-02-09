@@ -1,11 +1,90 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Titulo da minha página (que aparece na janela aberta)-->
+    <title>Gama Academy</title>
+
+    <!-- Criando um arquivo de estilos (formatação da página) esse código deve estar dentro
+    das tags <head></head>-->
+
+    <!-- como fazer a chamada de uma biblioteca em css-->
+    <link rel="stylesheet" href="../css/estilos.css">
+
+</head>
+
+<body>
+    <!-- criando o menu principal da nossa pagina-->
+    <table border="0" width="100%" class=menu>
+        <tr>
+            <td align="center"><img src="../imagens/logo.png" width="200" height="40"></td>
+            <td>QUEM SOMOS</td>
+            <td>CURSOS ONLINE</td>
+            <td>PARA EMPRESAS</td>
+            <!-- inserindo um link para a página de contatos-->
+            <td><a href="../html/contato.html">CONTATO</a></td>
+
+            <td>CONTEUDOS</td>
+        </tr>
+    </table>
+    <!--Criando uma tabela na nossa página-->
+    <table border="0" cellpading="5" cellspacing="2" width="100%">
+        <!-- width tamanho da tabela (o quanto ela ocupa na pagina)-->
+        <!-- <tr> permite criar linhas-->
+        <tr>
+            <!-- <td> permite criar colunas-->
+            <td align="center">
+                <!-- align faz o alinhamento do conteudo da coluna (right, left, center)-->
+                <!-- inserindo uma imagem na minha página-->
+                <img src="../imagens/pessoas.png">
+            </td>]
+            <td>
+                <!-- Inserir um título -->
+                <h1 class="titulo">ISTO NÃO É <br> UMA ESCOLA</h1> <!-- <br> faz uma quebra de linha -->
+
+                <!-- h1 até h6 altera o tamanho dos titulos 
+                <h2>ISTO NÃO É UMA ESCOLA</h2>
+                <h3>ISTO NÃO É UMA ESCOLA</h3>
+                <h4>ISTO NÃO É UMA ESCOLA</h4>
+                <h5>ISTO NÃO É UMA ESCOLA</h5>
+                <h6>ISTO NÃO É UMA ESCOLA</h6> -->
+
+                <!-- Inserindo parágrafos-->
+                <p>Esse lema nos trouxe até aqui!<br>
+                    Somos diferentes e visionários.</p>
+                <!-- <b> permite deixar o texto em negrito -->
+                <!-- <br> faz uma quebra de linha -->
+                <p>Tão inexplicáveis que <b>era mais simples dizer o que não éramos</b></p>
+                <p>Marca inovadora e questionadora por essência, questionou a si mesmo <br>
+                    <!-- <strike> deixa o texto tachado (com um risquinho)-->
+                    sobre <b>como se reinventar</b> em um momento de <strike>crise</strike> oportunidade para <br>
+                    chegar ainda mais perto do seu objetivo de impactar 1 milhão de vidas.</p>
+                <p class="msn">Não éramos uma escola, éramos uma experiência diferenciada de aprendizagem:<br>
+                    “ menos conversinha e mais conversão! ”</p>
+
+                <!-- inserindo botão play na nossa pagina -- o width e height servem para ajustar o tamanho da imagem-->
+                <!-- <a href> permite criar um link com uma imagem ou palavra chave -->
+                <!-- o atributo target = "_blanck" permite abrir uma nova aba da nossa pagina-->
+                <!--
+                <a href="https://www.youtube.com/watch?v=YmfBy9mihL0" target="_blanck"><img=src="../imagens/play.png"
+                        width="40" height="40"></a>
+                -->
+
+                <!-- Inserindo um componente de video direto na sua página, sem direcionar para outra-->
+                <video controls="autoplay=" true" width="400" height="300">
+                    <source src="../videos/gama.mp4">
+                </video>
+
+            </td>
+        </tr>
+
+    </table>
+
+
+
+
+</body>
+
 </html>
