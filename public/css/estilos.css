@@ -1,0 +1,86 @@
+
+    /*Criação da formatação para o paragrafo*/
+    p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+        color: green
+    }
+
+    /* Criação da formatação para o corpo da página */
+    body {
+        background-color: rgb(160, 211, 160);
+    }
+
+    /*Como criar um estilo de classe para ser utilizada com uma chamada no html */
+    .menu {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        color: blue;
+    }
+
+    .titulo{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+    }
+
+    .msn{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+        color: rgb(168, 132, 132);
+    }
+
+    .campo_email{
+        position: relative;
+        /*left: 152px;*/
+        width: 320px;
+        color: red;
+        background-color: yellow;
+    }
+
+    .campo_nome{
+        position: relative;
+        /*left: 152px;*/
+        width: 260px;
+        color: red;
+        background-color: yellow;
+    }
+
+    .campo_senha{
+        position: relative;
+        /*left: 152px;*/
+        width: 60px;
+        color: red;
+        background-color: yellow;
+    }
+
+    .container{
+        border: 3px solid brown;
+        width: 100%;
+    }
+
+    .div1{
+        background-color: yellow;
+    }
+
+    .div2{
+        background-color: green
+    }
+
+    .div3{
+        background-color: blue;
+    }
+
+    .div4{
+        background-color: red;
+    }
+
+/* criando um estilo para componente id, ou seja que contenham nome */
+
+#formulario_contato{
+background-color: rgb(134, 171, 204);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 14px;
+}
