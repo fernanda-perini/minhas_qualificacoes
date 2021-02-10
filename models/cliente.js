@@ -8,7 +8,7 @@ class Cliente{
       var soma;
       var resto;
       soma = 0;
-  
+      if(!this.cpf) return false;
       this.cpf = this.cpf.replace(/(\.)|(\-)/g, "");
   
       if (this.cpf.length > 11) return false;
